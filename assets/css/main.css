@@ -8596,3 +8596,18 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+			.map-container{
+				overflow:hidden;
+				position:relative;
+				height:0;
+				padding-top: 15px;
+				}
+				.map-container iframe{
+				left:25%;
+				top:100px;
+				bottom: 0;
+				height:60%;
+				width:50%;
+				position:absolute;
+				}
